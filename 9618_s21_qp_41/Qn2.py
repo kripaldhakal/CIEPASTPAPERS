@@ -18,7 +18,7 @@ def bubblesort(array):
 arrayData = [10, 5, 6, 7, 1, 12, 13, 15, 21, 8]
 
 ask = int(input("Enter a number: "))
-if linearSearch(ask) == True:
+if linearSearch(ask):
     print("The number is present in the array")
 else:
     print("The number is not present in the array")
